@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <div style="width: 1222px; height: 1960px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
   <div style="width: 1222px; height: 1960px; position: relative; background: #FFE9CE">
