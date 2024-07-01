@@ -452,6 +452,7 @@ table {
 	transition-delay: 0.5s;
 }
 /* ==========================================================================Hero========================================================================== */
+/* this is the header image */
 .hero {
 	background: url('../img/header-bg.jpg') right bottom no-repeat;
 	background-size: contain;
