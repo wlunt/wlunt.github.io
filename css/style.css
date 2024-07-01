@@ -744,23 +744,28 @@ img.grayscale:hover {
 	padding-left:0;
 	padding-right:0;
 }
+
 .effects {
-	padding-left:15px;
+    padding-left: 15px;
+    display: flex; /* Add this line */
+    flex-wrap: wrap; /* Optional: This allows the images to wrap to the next line if they overflow */
 }
 .effects .img {
-	position:relative;
-	position:relative;
-	z-index:1;
-	overflow:hidden;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-right: 5px; /* Make sure the margin is consistent */
+    margin-left: 0; /* Reset the margin if necessary */
 }
+
 .effects .img:nth-child(n) {
 	margin-right:5px;
 }
 .effects .img:first-child {
-	margin-left:-15px;
+    margin-left: 0; /* Ensure the first image doesn't have extra left margin */
 }
 .effects .img:last-child {
-	margin-right:0;
+    margin-right: 0; /* Ensure the last image doesn't have extra right margin */
 }
 .effects .img img {
 	display:block;
