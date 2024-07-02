@@ -299,9 +299,9 @@ table {
 	padding:20px 0;
 }
 .dark-box:hover,.dark-box:focus {
-	-webkit-box-shadow: 0px 3px 0px 0px #4f5d2f;
-	-moz-box-shadow: 0px 3px 0px 0px #4f5d2f;
-	box-shadow: 0px 3px 0px 0px #4f5d2f;
+	-webkit-box-shadow: 0px 3px 0px 0px ##f3f6f4;
+	-moz-box-shadow: 0px 3px 0px 0px ##f3f6f4;
+	box-shadow: 0px 3px 0px 0px ##f3f6f4;
 }
 .box-hover {
 	transition:all 500ms ease-in-out;
@@ -694,11 +694,12 @@ i.respons {
 }
 /* ==========================================================================Portfolio========================================================================== */
 .swag {
-	padding:75px 0;
+	padding:60px 0;
 }
 .swag h1 {
 	text-transform:uppercase;
 	letter-spacing:5px;
+	color: #ffe9ce;
 }
 .swag h1 span {
 	display:block;
@@ -954,7 +955,7 @@ h1.arrow {
 	color:#423629;
 	letter-spacing: 4px;
 	background:url('../img/h1-bg.png') no-repeat center bottom;
-	padding-bottom:30px;
+	padding-bottom:20px;
 	font-weight: bold;
 }
 h1.arrow span {
@@ -982,7 +983,7 @@ h1.arrow span {
 	background: #FFE800;
 }
 .contact-details {
-	margin:20px 0;
+	margin:10px 0;
 }
 .contact-details h2 {
 	font-size:25px;
