@@ -807,6 +807,7 @@ img.grayscale:hover {
 	width:100%;
 	opacity:1;
 }
+/*
 .img img {
 	width:-webkit-calc(100%+40px) !important;
 	width:calc(100%+40px) !important;
@@ -823,6 +824,7 @@ img.grayscale:hover {
 	transform:translate3d(0,0,0);
 	-ms-transform:translate3d(40px,0,0);
 }
+*/
 .hype {
 	position:absolute;
 	left:0;
