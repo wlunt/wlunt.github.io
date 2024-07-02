@@ -807,7 +807,7 @@ img.grayscale:hover {
 	width:100%;
 	opacity:1;
 }
-
+/*
 .img img {
 	width:-webkit-calc(100%+40px) !important;
 	width:calc(100%+40px) !important;
@@ -820,9 +820,9 @@ img.grayscale:hover {
 	-ms-transform:translate3d(40px,0,0);
 }
 .img:zoom img {
-	  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+	  transform: scale(1.5); 
 }
-
+*/
 .hype {
 	position:absolute;
 	left:0;
