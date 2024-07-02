@@ -804,6 +804,7 @@ img.grayscale:hover {
 }
 .overlay-effect .img.hover .overlay {
 	height:100%;
+	width:100%;
 	opacity:1;
 }
 .img img {
@@ -813,17 +814,15 @@ img.grayscale:hover {
 	transition:opacity 0.35s,transform 0.35s;
 	-moz-transition:opacity 0.35s,-moz-transform 0.35s;
 	-o-transition:opacity 0.35s,-o-transform 0.35s;
-	-webkit-transform:translate3d(-40px,0,0);
-	transform:translate3d(-40px,0,0);
-	-ms-transform:translate3d(-40px,0,0);
+	-webkit-transform:translate3d(40px,0,0);
+	transform:translate3d(40px,0,0);
+	-ms-transform:translate3d(40px,0,0);
 }
-/*
 .img:hover img {
 	-webkit-transform:translate3d(0,0,0);
 	transform:translate3d(0,0,0);
-	-ms-transform:translate3d(-40px,0,0);
+	-ms-transform:translate3d(40px,0,0);
 }
-*/
 .hype {
 	position:absolute;
 	left:0;
