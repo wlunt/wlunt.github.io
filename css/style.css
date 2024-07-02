@@ -454,11 +454,11 @@ table {
 /* ==========================================================================Hero========================================================================== */
 /* this is the header image */
 .hero {
-	background: url('../img/portfolio/b-w_small.jpeg') right bottom no-repeat;
+	background: url('../img/portfolio/quaint_small.jpeg') middle bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
-	background-color: #FBFBFB;
+	background-color: #A8A8AE;
 }
 .hero h1 {
 	font-size: 120px;
@@ -469,7 +469,7 @@ table {
 	text-transform: uppercase;
 }
 .hero h1 span {
-	color:#a1a9b0;
+	color:#4f5d2f;
 	/* display:inline-block; */
 }
 .hero h3 {
@@ -477,7 +477,7 @@ table {
 	margin:0;
 	padding:0;
 	opacity:0.5;
-	color: #E04343;
+	color: #423629;
 	letter-spacing: 18px;
 	line-height: 50px;
 	text-transform: uppercase;
