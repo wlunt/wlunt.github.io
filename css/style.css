@@ -580,7 +580,7 @@ h1.arrow span {
 	background-size:cover;
 }
 .color-bg {
-	background: #ffe9ce;
+	background: #4f5d2f;
 }
 
 .color-bg a {
@@ -1031,10 +1031,10 @@ button,button:focus,button:hover,button:active {
 }
 /* ==========================================================================Footer========================================================================== */
 footer a {
-	color:#a1a9b0;
+	color:#4f5d2f;
 }
 footer {
-	background-color:#f3f5f8;
+	background-color:#4f5d2f;
 	padding:40px 0 30px;
 }
 footer p {
