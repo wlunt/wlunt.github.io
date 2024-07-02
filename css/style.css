@@ -454,7 +454,7 @@ table {
 /* ==========================================================================Hero========================================================================== */
 /* this is the header image */
 .hero {
-	background: url('../img/portfolio/quaint_small.jpeg') middle bottom no-repeat;
+	background: url('../img/portfolio/quaint_small.jpeg') right bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
