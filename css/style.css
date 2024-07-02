@@ -942,6 +942,21 @@ ul.social-buttons li:last-child {
 	margin-top: 25px
 }
 /* ==========================================================================Contact========================================================================== */
+.contact p {
+	margin:50px 0 0;
+}
+h1.arrow {
+	font-size: 16px;
+	text-transform:uppercase;
+	color:#ffe9ce;
+	letter-spacing: 4px;
+	background:url('../img/h1-bg.png') no-repeat center bottom;
+	padding-bottom:30px;
+	font-weight: bold;
+}
+h1.arrow span {
+    color: #ffe9ce;
+}
 .up-btn {
 	width:55px;
 	height:55px;
