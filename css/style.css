@@ -458,7 +458,7 @@ table {
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
-	background-color: #A8A8AE;
+	background-color: #31313D;
 }
 .hero h1 {
 	font-size: 120px;
@@ -477,7 +477,7 @@ table {
 	margin:0;
 	padding:0;
 	opacity:0.5;
-	color: #423629;
+	color: #ffe9ce;
 	letter-spacing: 18px;
 	line-height: 50px;
 	text-transform: uppercase;
