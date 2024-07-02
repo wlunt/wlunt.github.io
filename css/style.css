@@ -580,11 +580,11 @@ h1.arrow span {
 	background-size:cover;
 }
 .color-bg {
-	background: #E04343;
+	background: #ffe9ce;
 }
 
 .color-bg a {
-    color: #FFE800;
+    color: #ffe9ce;
 }
 .color-bg h6, .color-bg p {
     color: white;
@@ -610,7 +610,7 @@ h1.arrow span {
 	color: #8C8C8C;
 }
 .color-bg h1.arrow span {
-    color: #FFE800;
+    color: #ffe9ce;
 }
 .color-bg h1.arrow {
     color: #FFF;
