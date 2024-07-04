@@ -699,7 +699,7 @@ i.respons {
 .swag h1 {
 	text-transform:uppercase;
 	letter-spacing:5px;
-	color: #ffe9ce;
+	color: #423629;
 }
 .swag h1 span {
 	display:block;
@@ -953,14 +953,14 @@ ul.social-buttons li:last-child {
 h1.arrow {
 	font-size: 16px;
 	text-transform:uppercase;
-	color:#FFE9CE;
+	color:#423629;
 	letter-spacing: 4px;
 	background:url('../img/h1-bg.png') no-repeat center bottom;
 	padding-bottom:20px;
 	font-weight: bold;
 }
 h1.arrow span {
-    color: #FFE9CE;
+    color: #423629;
 }
 .up-btn {
 	width:55px;
