@@ -1,332 +1,768 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Website Title -->
-    <title>Will Lunt </title>
-    <!-- Bootstrap -->
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<!-- Font-Awesome -->
-    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	<!-- Lightbox -->
-	<link href="assets/lightbox/css/lightbox.css" rel="stylesheet">
-    <!-- Text Rotator-->
-	<link href="assets/textrotator/simpletextrotator.css" rel="stylesheet">
-	<!-- FlexSlider -->
-    <link href="assets/flexslider/flexslider.css" rel="stylesheet">
-	<!-- Theme Style -->
-    <link href="css/style.css" rel="stylesheet">
-	<!-- Animations -->
-    <link href="css/animate.css" rel="stylesheet">
-	<!-- Custom Favicon -->
-	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="assets/html5shiv/html5shiv.js"></script>
-    <script src="assets/respond/respond.min.js"></script>
-    <![endif]-->
-  </head>
-    <body id="top">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <!-- ****************************** Preloader ************************** -->
-      <div id="preloader"></div>
+  <!-- SEO -->
+  <title>Bespoke AI Social Media for Therapists &amp; Clinics</title>
+  <meta name="description" content="A custom AI agent built around your practice, your voice, and your professional standards. We design and deploy social media automation specifically for therapists and mental health clinics.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bespoke AI Social Media for Therapists &amp; Clinics">
+  <meta property="og:description" content="A custom AI agent built around your practice, your voice, and your professional standards.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       Navigation
+       ============================================================ -->
+  <nav class="site-nav" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="#" class="nav-brand" aria-label="Return to top">
+          <span class="nav-brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M8 1.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0V2a.5.5 0 0 1 .5-.5zm0 9a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2a.5.5 0 0 1 .5-.5zm-5-4a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm8 0a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zM8 6a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+            </svg>
+          </span>
+          Practice Social
+        </a>
+
+        <div class="nav-links" aria-label="Page sections">
+          <a href="#workflow">How it works</a>
+          <a href="#tailored">Tailored for you</a>
+          <a href="#safety">Safety</a>
+          <a href="#how-built">The process</a>
+        </div>
+
+        <a href="mailto:williamlunt3@gmail.com?subject=Demo%20Request%20%E2%80%94%20Practice%20Social" class="btn btn-primary nav-cta">Request a demo</a>
+      </div>
+    </div>
+  </nav>
 
 
-	  	<!-- ==========================
-        HEADER SECTION 
-        =========================== -->
-        <header id="home">
-		    <!-- creative menu -->
-		  <!-- Header Image -->
-          <section class="hero" id="hero">
-            <div class="container">
-			  <!-- Slider Button (don't edit!)-->
-              <div class="row">
-                <div class="col-md-12 text-right navicon">
-                  <a id="nav-toggle" class="nav_slide_button" href="index.html#"><span></span></a>
-                </div>
-              </div>
-			  <!-- HEADER HEADLINE -->
-              <div class="row">
-                <div class="col-md-8 col-md-offset-1 inner">
-                  <h1 class="animated fadeInDown">
-			  <!--- this is the john doe name bit ---->
-                   WILL </br>
-                    <span>LUNT</span>
-                  </h1><!-- Title -->
-                  <h3 class="animated fadeInUp delay-05s"> portfolio <span class="rotate"></span></h3><!-- Text Rotator -->
-                </div>
-              </div>
-			  <!-- Learn More Button -->
-              <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                  <a href="index.html#about" class="scrollto wow fadeInUp delay-5s ">
-			            <p>SEE MORE</p>
-			            <p class="scrollto--arrow"><img src="img/scroll-down.png" alt="scroll down arrow"></p>
-			        </a>
-                </div>
-              </div>
+  <!-- ============================================================
+       1. Hero Section
+       ============================================================ -->
+  <section class="hero" id="top" aria-labelledby="hero-heading">
+    <div class="container">
+      <div class="hero-inner">
+
+        <div>
+          <span class="hero-eyebrow">
+            <svg width="8" height="8" viewBox="0 0 8 8" fill="currentColor" aria-hidden="true"><circle cx="4" cy="4" r="4"/></svg>
+            Bespoke &middot; Collaborative &middot; Built for clinicians
+          </span>
+        </div>
+
+        <div>
+          <h1 class="hero-title" id="hero-heading" data-pretext>
+            A social media system built specifically for your practice
+          </h1>
+        </div>
+
+        <div>
+          <p class="hero-subtitle" data-pretext>
+            We work with you to design a custom AI agent that writes and posts content in your tone, aligned with your brand and professional standards. You stay in control — we handle the workflow.
+          </p>
+        </div>
+
+        <div>
+          <p class="hero-support">
+            Not a generic tool. A tailored system configured around your practice, your clients, and your communication style.
+          </p>
+        </div>
+
+        <div class="cta-group hero-ctas">
+          <a
+            href="mailto:williamlunt3@gmail.com?subject=Demo%20Request%20%E2%80%94%20Practice%20Social"
+            class="btn btn-primary"
+            aria-label="Request a tailored demonstration"
+          >
+            Request a tailored demo
+          </a>
+          <a href="#workflow-intro" class="btn btn-secondary">
+            See how the workflow works
+          </a>
+        </div>
+
+        <div class="hero-trust" aria-label="Trust indicators">
+          <div class="trust-item">
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+            </svg>
+            Human review required
+          </div>
+          <div class="trust-item">
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+            </svg>
+            Professional tone safeguards
+          </div>
+          <div class="trust-item">
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+            </svg>
+            Bespoke configuration
+          </div>
+          <div class="trust-item">
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+            </svg>
+            No commitment required
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       2. Video / Workflow Intro Section
+       ============================================================ -->
+  <section class="workflow-intro" id="workflow-intro" aria-labelledby="video-heading">
+    <div class="container">
+      <div class="workflow-intro-inner">
+
+        <div class="video-placeholder" role="img" aria-label="Video placeholder: From idea to published post — safely and automatically. 60–90 second walkthrough.">
+          <div class="video-bg-pattern" aria-hidden="true"></div>
+          <div class="video-play-btn" aria-hidden="true">
+            <div class="play-circle">
+              <div class="play-triangle"></div>
             </div>
-          </section>
-		  <!-- Header Image End -->
-        </header>
-		<!-- ==========================
-        HEADER SECTION END  
-        =========================== -->
-		
-		
-		
-		
-		<!-- ==========================
-        ABOUT SECTION  
-        =========================== -->
-        <section class="intro text-center section-padding color-bg" id="about">
-          <div class="container">
-		    <!-- WELCOME TEXT -->
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2 wp1">
-                <h1 class="arrow"><span>About</span> me</h1><!-- Headline -->
-				<!-- about / welcome text -->
-                <p>Hello! I’m Will, a Partnerships Manager by trade and a relative baby in the modelling industry. 
-			<br><br>
-		Working with the NHS on the daily has its struggles, but delivering life changing treatments has its real upsides.
-			When I’m not working on developing partnerships, I’m often building websites and apps from scratch, producing music, 
-			or in the gym
-			<br><br>
-		 I am always on the lookout for new opportunities to expand my horizons and connect with industry professionals.
-			Whether you are looking for a model for a high-end fashion campaign or a casual lifestyle shoot, 
-			I am confident in my ability to deliver exceptional results and bring your vision to reality.</p>
-              </div>
+            <span class="video-label">Workflow walkthrough &mdash; 60 seconds</span>
+          </div>
+          <div class="video-duration" aria-hidden="true">60&ndash;90 sec</div>
+        </div>
+
+        <div class="workflow-intro-text">
+          <span class="eyebrow">The workflow</span>
+          <h2 id="video-heading" data-pretext>From idea to published post &mdash; safely and automatically</h2>
+          <p style="margin-top: 1rem; color: var(--slate-500); font-size: 1.0625rem;">
+            Every piece of content passes through a structured process before it reaches your audience. Nothing is posted without your explicit approval.
+          </p>
+
+          <div class="workflow-flow" role="list" aria-label="Workflow steps">
+            <span class="flow-step" role="listitem">Prompt</span>
+            <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+            <span class="flow-step" role="listitem">Engineering</span>
+            <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+            <span class="flow-step" role="listitem">Content</span>
+            <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+            <span class="flow-step" role="listitem">Review</span>
+            <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+            <span class="flow-step" role="listitem">Posting</span>
+          </div>
+
+          <p class="workflow-note">You stay in control at every step. Nothing is published without approval.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       3. The Workflow — 5 Steps
+       ============================================================ -->
+  <section class="steps-section" id="workflow" aria-labelledby="workflow-heading">
+    <div class="container">
+
+      <div class="steps-header">
+        <span class="eyebrow">Step by step</span>
+        <h2 class="section-heading" id="workflow-heading">How the workflow operates</h2>
+        <p class="section-sub">A structured process built on each step that takes your idea from prompt to published post — always with your oversight.</p>
+      </div>
+
+      <div class="steps-grid" role="list">
+
+        <!-- Step 1 -->
+        <article class="step-card" role="listitem" aria-labelledby="step1-title">
+          <div class="step-number" aria-hidden="true">1</div>
+          <div class="step-body">
+            <span class="step-label">Step one</span>
+            <h3 class="step-title" id="step1-title">Prompt</h3>
+            <p class="step-content"><strong>What you do:</strong> Choose a topic relevant to your clients. A brief direction from you is all that's needed.</p>
+            <div class="step-examples" aria-label="Example topics">
+              <span class="step-tag">Managing anxiety before exams</span>
+              <span class="step-tag">Understanding burnout</span>
+              <span class="step-tag">Sleep hygiene tips</span>
+              <span class="step-tag">Setting healthy boundaries</span>
+            </div>
+            <div class="step-outcome" role="note">
+              <svg class="step-outcome-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <p class="step-outcome-text">Your idea is transformed into a structured instruction the system can act on</p>
             </div>
           </div>
-        </section>
+        </article>
 
-		
-		
-		
-		<!-- ==========================
-        PORTFOLIO SECTION
-    =========================== -->
-        <section class="swag text-center" id="portfolio">
-          <div class="container">
-		    <!-- Headline -->
-            <div class="row">
-              <h1 class="arrow">
-                Recent <span>Work</span>
-              </h1>
+        <!-- Step 2 -->
+        <article class="step-card" role="listitem" aria-labelledby="step2-title">
+          <div class="step-number" aria-hidden="true">2</div>
+          <div class="step-body">
+            <span class="step-label">Step two</span>
+            <h3 class="step-title" id="step2-title">Engineering</h3>
+            <p class="step-content"><strong>Behind the scenes:</strong> A structured AI agent system built in Python applies your practice's specific rules and guidelines.</p>
+            <ul class="step-list" aria-label="What the system applies">
+              <li>Tone guidelines calibrated to your voice</li>
+              <li>Clinical communication rules and constraints</li>
+              <li>Platform-specific post structure and formatting</li>
+              <li>Consistency checks against your brand</li>
+              <li>Safety guardrails appropriate for mental health content</li>
+            </ul>
+            <div class="step-outcome" role="note">
+              <svg class="step-outcome-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <p class="step-outcome-text">Not generic AI — a system engineered specifically for professional clinical use</p>
             </div>
           </div>
-        </section>
+        </article>
 
-        <div class="container">
-          <div class="row row-offset-0">
-  				 			 
-          <!-- PORTFOLIO ITEM 1 -->
-          <div class="col-sm-4">
-		<div class="overlay-effect effects clearfix">
-                  <div class="img">
-			<a href="img/portfolio/angry.jpeg" data-lightbox="roadtrip" title="Project One"><img src="img/portfolio/angry_small.jpg" alt="Portfolio Item"></a>	
-		  </div>
-	     </div>
-	  </div>
-  	    <!-- PORTFOLIO ITEM END -->
-
-		 
-  	
-  	    <!-- PORTFOLIO ITEM 2 -->
-          <div class="col-sm-4">
-		<div class="overlay-effect effects clearfix">
-                  <div class="img">
-			<a href="img/portfolio/vogue.jpeg" data-lightbox="roadtrip" title="Project Two"><img src="img/portfolio/vogue_small.jpg" alt="Portfolio Item"></a>	
-		  </div>
-	     </div>
-	  </div>
-  	    <!-- PORTFOLIO ITEM END -->
-  					
-  		<!-- PORTFOLIO ITEM 3 -->
-          <div class="col-sm-4">
-		<div class="overlay-effect effects clearfix">
-                  <div class="img">
-			<a href="img/portfolio/quaint.jpeg" data-lightbox="roadtrip" title="Project Three"><img src="img/portfolio/quaint_small.jpg" alt="Portfolio Item"></a>	
-		  </div>
-	     </div>
-	  </div>
-        </div><!--/row-->
-<br>
-     <div class="row row-offset-0">
-  				 			 
-          <!-- PORTFOLIO ITEM 4 -->
-          <div class="col-sm-4">
-		<div class="overlay-effect effects clearfix">
-                  <div class="img">
-			<a href="img/portfolio/b-w.jpeg" data-lightbox="roadtrip" title="Project Four"><img src="img/portfolio/b-w_small.jpg" alt="Portfolio Item"></a>	
-		  </div>
-	     </div>
-	  </div>
-  	    <!-- PORTFOLIO ITEM END -->
-
-		 
-  	
-  	    <!-- PORTFOLIO ITEM 5 -->
-          <div class="col-sm-4">
-		<div class="overlay-effect effects clearfix">
-                  <div class="img">
-			<a href="img/portfolio/headshot.jpeg" data-lightbox="roadtrip" title="Project Five"><img src="img/portfolio/headshot_small.jpg" alt="Portfolio Item"></a>	
-		  </div>
-	     </div>
-	  </div>
-  	    <!-- PORTFOLIO ITEM END -->
-  					
-  		<!-- PORTFOLIO ITEM 6 -->
-          <div class="col-sm-4">
-		<div class="overlay-effect effects clearfix">
-                  <div class="img">
-			<a href="img/portfolio/hair.jpeg" data-lightbox="roadtrip" title="Project Six"><img src="img/portfolio/hair_small.jpg" alt="Portfolio Item"></a>	
-		  </div>
-	     </div>
-	  </div>
-        </div><!--/row-->
-<br>
-     <div class="row row-offset-0">
-  				 			 
-          <!-- PORTFOLIO ITEM 7 -->
-          <div class="col-sm-4">
-		<div class="overlay-effect effects clearfix">
-                  <div class="img">
-			<a href="img/portfolio/full_body.jpeg" data-lightbox="roadtrip" title="Project Seven"><img src="img/portfolio/full_body_small.jpg" alt="Portfolio Item"></a>	
-		  </div>
-	     </div>
-	  </div>
-  	    <!-- PORTFOLIO ITEM END -->
-
-		 
-  	
-  	    <!-- PORTFOLIO ITEM 8 -->
-          <div class="col-sm-4">
-		<div class="overlay-effect effects clearfix">
-                  <div class="img">
-			<a href="img/portfolio/pro.jpeg" data-lightbox="roadtrip" title="Project Eight"><img src="img/portfolio/pro_small.jpg" alt="Portfolio Item"></a>	
-		  </div>
-	     </div>
-	  </div>
-  	    <!-- PORTFOLIO ITEM END -->
-  					
-  		<!-- PORTFOLIO ITEM 9 -->
-          <div class="col-sm-4">
-		<div class="overlay-effect effects clearfix">
-                  <div class="img">
-			<a href="img/portfolio/power.jpeg" data-lightbox="roadtrip" title="Project Nine"><img src="img/portfolio/power_small.jpg" alt="Portfolio Item"></a>	
-		  </div>
-	     </div>
-	  </div>
-        </div><!--/row-->
-      </div><!--/.container-->
-		<!-- ==========================
-        PORTFOLIO SECTION END
-        =========================== -->
-			
-		
-		<!-- ==========================
-        CONTACT SECTION
-        =========================== -->
-	    <br>
-	    <br>
-	    <br>
-	    <br>
-        <section class="contact text-center section-padding color-bg-x contact-wrap" id="contact">
-          <div class="container">
-		    <!-- Headline -->
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">Get in contact</h1>
-              </div>
-            </div>
-            <div class="row contact-details">
-			  <!-- Adress Box -->
-              <div class="col-md-4">
-                <div class="dark-box box-hover">
-                  <h2><i class="fa-brands fa-linkedin" style="color:#423629;"></i><span>LinkedIn</span></h2>
-                  <p>    
-			  <a href="https://www.linkedin.com/in/wlunt/" target="_blank">Will Lunt</a>
-		</p>
-                </div>
-              </div>
-			  <!-- Phone Number Box -->
-              <div class="col-md-4">
-                <div class="dark-box box-hover">
-                  <h2><i class="fa fa-mobile" style="color:#423629;"></i><span>Phone</span></h2>
-                  <p>+44 7710 676176</p>
-                </div>
-              </div>
-			  <!-- E-Mail Box -->
-              <div class="col-md-4">
-                <div class="dark-box box-hover">
-                  <h2><i class="fa fa-paper-plane" style="color:#423629;"></i><span>Email</span></h2>
-                  <p><a href="index.html#">williamlunt3@gmail.com</a></p>
-                </div>
-              </div>
-            </div>          
-        </section>
-		<!-- ==========================
-        CONTACT SECTION END
-        =========================== -->
-		
-		
-		
-		<!-- ==========================
-        FOOTER SECTION
-        =========================== -->
-        <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <p>Copyright Will Lunt &copy; 2024 </p>
-              </div>
+        <!-- Step 3 -->
+        <article class="step-card" role="listitem" aria-labelledby="step3-title">
+          <div class="step-number" aria-hidden="true">3</div>
+          <div class="step-body">
+            <span class="step-label">Step three</span>
+            <h3 class="step-title" id="step3-title">Content generation</h3>
+            <p class="step-content"><strong>What it produces:</strong> Fully drafted content ready for your review.</p>
+            <ul class="step-list" aria-label="Types of content generated">
+              <li>Post body text — clear, professional, on-brand</li>
+              <li>Captions and variations for different platforms</li>
+              <li>Relevant hashtags</li>
+              <li>Platform-specific formatting adjustments</li>
+            </ul>
+            <div class="step-outcome" role="note">
+              <svg class="step-outcome-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <p class="step-outcome-text">Content created quickly, consistently, and to a professional standard</p>
             </div>
           </div>
-        </footer>
-		<!-- ==========================
-        FOOTER SECTION END
-        =========================== -->		
-		
-		
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- SmoothScroll -->           
-    <script type="text/javascript" src="assets/smoothscroll/smoothscroll.js"></script>
-    <!-- Bootstrap -->
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/waypoints.min.js"></script>
-    <!-- classie.js -->
-	<script src="js/classie.js"></script>
-    <!-- FlexSlider -->
-    <script src="assets/flexslider/jquery.flexslider.js"></script>
-	<!-- Modernizr -->
-    <script src="js/modernizr.js"></script>
-	<!-- Text Rotator -->
-	<script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
-	<!-- Lightbox.js -->
-    <script src="assets/lightbox/js/lightbox.min.js"></script>
-    <!-- Google Maps --> 
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script>
-	<!-- Theme JavaScript Core -->
-	<script src="js/main.js"></script>
-	<script src="js/script.js"></script>
+        </article>
 
-	
-	
-	<!-- TEXT ROTATOR SETTINGS -->
-    <script type="text/javascript">
-    $(".rotate").textrotator({
-      animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
-      separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-      speed: 2000 // How many milliseconds until the next word show.
-    });
-    </script>
-	
-    </body>
+        <!-- Step 4 -->
+        <article class="step-card" role="listitem" aria-labelledby="step4-title">
+          <div class="step-number" aria-hidden="true">4</div>
+          <div class="step-body">
+            <span class="step-label">Step four</span>
+            <h3 class="step-title" id="step4-title">Review and approval</h3>
+            <p class="step-content"><strong>Your control point:</strong> Every piece of content passes through you before anything happens. You read it, judge it, and decide what happens next.</p>
+            <ul class="step-list" aria-label="Your review options">
+              <li>Edit the draft directly</li>
+              <li>Approve it as written</li>
+              <li>Reject it and request a revision</li>
+              <li>Schedule it for a specific date and time</li>
+            </ul>
+            <div class="step-outcome" role="note">
+              <svg class="step-outcome-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <p class="step-outcome-text">No content is ever posted without your explicit approval</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Step 5 -->
+        <article class="step-card" role="listitem" aria-labelledby="step5-title">
+          <div class="step-number" aria-hidden="true">5</div>
+          <div class="step-body">
+            <span class="step-label">Step five</span>
+            <h3 class="step-title" id="step5-title">Posting</h3>
+            <p class="step-content"><strong>Once you approve:</strong> The system handles publication across your chosen platforms, on schedule, without any further action from you.</p>
+            <ul class="step-list" aria-label="Supported platforms">
+              <li>Instagram</li>
+              <li>LinkedIn</li>
+              <li>Facebook &amp; professional pages</li>
+            </ul>
+            <div class="step-outcome" role="note">
+              <svg class="step-outcome-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <p class="step-outcome-text">Consistent posting without the administrative workload</p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       4. Tailored to Your Practice
+       ============================================================ -->
+  <section class="tailored-section" id="tailored" aria-labelledby="tailored-heading">
+    <div class="container">
+
+      <span class="eyebrow">Bespoke by design</span>
+      <h2 class="section-heading" id="tailored-heading">Built around your voice, your clients, and your professional standards</h2>
+      <p class="section-sub">Not one-size-fits-all. Each implementation is designed in close collaboration with you, configured to reflect how your practice actually communicates.</p>
+
+      <div class="customization-grid" role="list">
+
+        <div class="custom-card" role="listitem">
+          <div class="custom-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+            </svg>
+          </div>
+          <div class="custom-text">
+            <h4>Your clinical specialties</h4>
+            <p>Content shaped around the areas you work in, using appropriate language for your field.</p>
+          </div>
+        </div>
+
+        <div class="custom-card" role="listitem">
+          <div class="custom-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/>
+            </svg>
+          </div>
+          <div class="custom-text">
+            <h4>Your tone of communication</h4>
+            <p>Whether warm and conversational or measured and clinical, your voice is written in.</p>
+          </div>
+        </div>
+
+        <div class="custom-card" role="listitem">
+          <div class="custom-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <div class="custom-text">
+            <h4>Your target audience</h4>
+            <p>Content framed for the people you work with and want to reach.</p>
+          </div>
+        </div>
+
+        <div class="custom-card" role="listitem">
+          <div class="custom-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <div class="custom-text">
+            <h4>Your posting schedule</h4>
+            <p>Frequency, timing, and platform mix tailored to your capacity and goals.</p>
+          </div>
+        </div>
+
+        <div class="custom-card" role="listitem">
+          <div class="custom-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <div class="custom-text">
+            <h4>Your professional boundaries</h4>
+            <p>Topics to approach carefully, language to avoid, and areas kept clearly off-limits.</p>
+          </div>
+        </div>
+
+        <div class="custom-card" role="listitem">
+          <div class="custom-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+            </svg>
+          </div>
+          <div class="custom-text">
+            <h4>Your compliance requirements</h4>
+            <p>Regulatory considerations and professional body guidelines factored in from the start.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="tailored-statement">Every deployment is bespoke — designed in collaboration with you, not handed to you off the shelf.</p>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       5. Safety and Professional Oversight
+       ============================================================ -->
+  <section class="safety-section" id="safety" aria-labelledby="safety-heading">
+    <div class="container">
+
+      <span class="eyebrow">Built with care</span>
+      <h2 class="section-heading" id="safety-heading">Designed for responsible professional communication</h2>
+      <p class="section-sub">Mental health communication carries real responsibility. The system is built with that in mind at every level.</p>
+
+      <div class="safety-grid" role="list">
+
+        <div class="safety-card" role="listitem">
+          <div class="safety-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <h3>Human review required</h3>
+          <p>Every piece of content is reviewed and approved by you before it is published. The system never posts autonomously.</p>
+        </div>
+
+        <div class="safety-card" role="listitem">
+          <div class="safety-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <h3>Professional tone safeguards</h3>
+          <p>Structured communication guidelines are embedded into the system — preventing language that falls outside your professional standards.</p>
+        </div>
+
+        <div class="safety-card" role="listitem">
+          <div class="safety-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+            </svg>
+          </div>
+          <h3>Full auditability</h3>
+          <p>Every post has a complete workflow history — who approved it, when, and what was edited. A clear record you can refer back to.</p>
+        </div>
+
+        <div class="safety-card" role="listitem">
+          <div class="safety-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </div>
+          <h3>Ethical communication support</h3>
+          <p>Guidelines for responsible mental health messaging — avoiding stigmatising language and framing content with appropriate care.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       6. Example Output
+       ============================================================ -->
+  <section class="example-section" id="example" aria-labelledby="example-heading">
+    <div class="container">
+
+      <div style="text-align:center; margin-bottom: 3rem;">
+        <span class="eyebrow">Sample output</span>
+        <h2 class="section-heading" id="example-heading" style="margin-bottom: 0.75rem;">What the content looks like</h2>
+        <p style="color: var(--slate-400); font-size: 0.9375rem; max-width: 520px; margin: 0 auto;">
+          This is a representative example. Your system's output reflects your own tone, specialties, and brand.
+        </p>
+      </div>
+
+      <div class="example-inner">
+
+        <div class="post-card" role="article" aria-label="Example social media post">
+          <div class="post-card-header">
+            <div class="post-card-avatar" aria-hidden="true">YP</div>
+            <div class="post-card-meta">
+              <div class="post-card-name">Your Practice</div>
+              <div class="post-card-handle">@yourpractice</div>
+            </div>
+            <div class="post-card-platforms" aria-label="Publishing to">
+              <span class="platform-badge" title="Instagram">IG</span>
+              <span class="platform-badge" title="LinkedIn">LI</span>
+            </div>
+          </div>
+
+          <div class="post-card-body">
+            <p class="post-text" data-pretext>
+              Feeling overwhelmed before an important event is common. One simple technique is to focus on slow, steady breathing for one minute. This helps your nervous system settle and improves concentration.
+            </p>
+            <p class="post-caption">"A small pause can make a big difference."</p>
+            <div class="post-hashtags" aria-label="Hashtags">
+              <span class="hashtag">#MentalHealth</span>
+              <span class="hashtag">#TherapistTips</span>
+              <span class="hashtag">#StressManagement</span>
+            </div>
+          </div>
+
+          <div class="post-card-footer">
+            <span class="post-card-label">Status</span>
+            <span class="post-status">Awaiting your approval</span>
+          </div>
+        </div>
+
+        <div class="example-labels" aria-label="Post properties">
+          <div class="example-label-card">
+            <div class="label-title">Topic prompt</div>
+            <div class="label-value">Managing pre-event anxiety</div>
+          </div>
+          <div class="example-label-card">
+            <div class="label-title">Tone</div>
+            <div class="label-value">Calm &amp; reassuring</div>
+          </div>
+          <div class="example-label-card">
+            <div class="label-title">Review required</div>
+            <div class="label-value">Yes &mdash; always</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       7. How Your System Is Built — 5 Steps
+       ============================================================ -->
+  <section class="steps-section steps-section--alt" id="how-built" aria-labelledby="how-built-heading">
+    <div class="container">
+
+      <div class="steps-header">
+        <span class="eyebrow">The implementation process</span>
+        <h2 class="section-heading" id="how-built-heading">How your system is designed and built</h2>
+        <p class="section-sub">A structured collaborative process. We begin by understanding your practice, and we don't step back until the system genuinely reflects how you communicate.</p>
+      </div>
+
+      <div class="steps-grid" role="list">
+
+        <!-- Build Step 1 -->
+        <article class="step-card" role="listitem" aria-labelledby="build-step1-title">
+          <div class="step-number" aria-hidden="true">1</div>
+          <div class="step-body">
+            <span class="step-label">Discovery</span>
+            <h3 class="step-title" id="build-step1-title">Understand your practice</h3>
+            <p class="step-content">We begin by listening. A conversation to understand how your practice operates and what it needs to communicate.</p>
+            <ul class="step-list" aria-label="What we explore">
+              <li>Your services and clinical specialties</li>
+              <li>Who your typical clients are</li>
+              <li>Your communication goals</li>
+              <li>Your professional boundaries</li>
+              <li>Your existing brand and online presence</li>
+            </ul>
+            <div class="step-outcome" role="note">
+              <svg class="step-outcome-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <p class="step-outcome-text">A clear, shared understanding of how your practice communicates</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Build Step 2 -->
+        <article class="step-card" role="listitem" aria-labelledby="build-step2-title">
+          <div class="step-number" aria-hidden="true">2</div>
+          <div class="step-body">
+            <span class="step-label">Voice &amp; brand</span>
+            <h3 class="step-title" id="build-step2-title">Define your voice and brand</h3>
+            <p class="step-content">We work with you to document exactly how your practice sounds — so the system can reproduce it reliably.</p>
+            <ul class="step-list" aria-label="What we define">
+              <li>Tone of voice and register</li>
+              <li>Language preferences and vocabulary</li>
+              <li>Level of clinical detail</li>
+              <li>Topics to include and topics to avoid</li>
+            </ul>
+            <div class="step-outcome" role="note">
+              <svg class="step-outcome-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <p class="step-outcome-text">Content that sounds consistent, professional, and recognisably yours</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Build Step 3 -->
+        <article class="step-card" role="listitem" aria-labelledby="build-step3-title">
+          <div class="step-number" aria-hidden="true">3</div>
+          <div class="step-body">
+            <span class="step-label">Configuration</span>
+            <h3 class="step-title" id="build-step3-title">Configure your agent</h3>
+            <p class="step-content">We build and configure the system based on everything we've learned. No guesswork — every setting reflects a decision made with you.</p>
+            <ul class="step-list" aria-label="What gets configured">
+              <li>Content generation workflow</li>
+              <li>Platform selection and formatting rules</li>
+              <li>Posting schedule and frequency</li>
+              <li>Review and approval process</li>
+              <li>Brand rules and safety constraints</li>
+            </ul>
+            <div class="step-outcome" role="note">
+              <svg class="step-outcome-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <p class="step-outcome-text">A customised system ready for controlled testing</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Build Step 4 -->
+        <article class="step-card" role="listitem" aria-labelledby="build-step4-title">
+          <div class="step-number" aria-hidden="true">4</div>
+          <div class="step-body">
+            <span class="step-label">Testing</span>
+            <h3 class="step-title" id="build-step4-title">Test and refine</h3>
+            <p class="step-content">We generate real drafts and review them together. If anything is off, we adjust the rules — not just the content.</p>
+            <ul class="step-list" aria-label="What the testing process involves">
+              <li>Generate a range of draft posts</li>
+              <li>Review tone, clarity, and accuracy together</li>
+              <li>Adjust system rules where needed</li>
+              <li>Confirm the system performs reliably across different topics</li>
+            </ul>
+            <div class="step-outcome" role="note">
+              <svg class="step-outcome-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <p class="step-outcome-text">Confidence that the system meets your professional standards before going live</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Build Step 5 -->
+        <article class="step-card" role="listitem" aria-labelledby="build-step5-title">
+          <div class="step-number" aria-hidden="true">5</div>
+          <div class="step-body">
+            <span class="step-label">Ongoing</span>
+            <h3 class="step-title" id="build-step5-title">Deploy and support</h3>
+            <p class="step-content">After launch, we stay involved. The system evolves as your practice does, and we're available to adjust it when your needs change.</p>
+            <ul class="step-list" aria-label="Ongoing support includes">
+              <li>Monitoring content performance and consistency</li>
+              <li>Adjusting tone and topic guidelines over time</li>
+              <li>Updating workflows if your practice changes</li>
+            </ul>
+            <div class="step-outcome" role="note">
+              <svg class="step-outcome-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <p class="step-outcome-text">Reliable communication that evolves with your practice over time</p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       8. Final CTA Section
+       ============================================================ -->
+  <section class="final-cta" id="contact" aria-labelledby="cta-heading">
+    <div class="container">
+      <div class="final-cta-inner">
+
+        <span class="eyebrow">Get started</span>
+        <h2 id="cta-heading" data-pretext>See how this could work for your practice</h2>
+
+        <p class="lead" style="margin-bottom: 1.5rem;">
+          Every practice is different. A short demonstration allows us to show how the workflow can be tailored to your needs — and gives you the chance to ask questions.
+        </p>
+
+        <div class="cta-group">
+          <a
+            href="mailto:williamlunt3@gmail.com?subject=Demo%20Request%20%E2%80%94%20Practice%20Social&body=Hi%2C%0A%0AI%27d%20like%20to%20find%20out%20more%20about%20your%20bespoke%20AI%20social%20media%20service.%0A%0AMy%20practice%20details%3A%0A%0A"
+            class="btn btn-primary"
+            style="font-size: 1.0625rem; padding: 1rem 2.25rem;"
+            aria-label="Request a demonstration via email"
+          >
+            Request a demo
+          </a>
+        </div>
+
+        <p class="final-cta-note">
+          No commitment required. We will walk you through the workflow and answer your questions.
+        </p>
+
+        <div class="trust-badges" role="list" aria-label="Guarantees">
+          <div class="trust-badge" role="listitem">
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+            </svg>
+            Human review required
+          </div>
+          <div class="trust-badge" role="listitem">
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+            </svg>
+            Professional tone safeguards
+          </div>
+          <div class="trust-badge" role="listitem">
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+            </svg>
+            Bespoke configuration
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       Footer
+       ============================================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-brand">Practice Social</span>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="#top">Back to top</a>
+          <a href="mailto:williamlunt3@gmail.com?subject=Demo%20Request%20%E2%80%94%20Practice%20Social">Contact</a>
+        </nav>
+      </div>
+      <p class="footer-copy">Bespoke AI social media for therapists and clinics. Each implementation is tailored to the individual practice.</p>
+    </div>
+  </footer>
+
+
+  <!-- ============================================================
+       Scripts
+       ============================================================ -->
+  <script src="script.js"></script>
+
+  <!-- Pretext text layout — loaded as ES module, progressive enhancement -->
+  <script type="module">
+    import { prepare, layout } from './pretext.js';
+
+    async function initPretext() {
+      await document.fonts.ready;
+      const elements = document.querySelectorAll('[data-pretext]');
+      const prepared = new Map();
+
+      elements.forEach(el => {
+        try {
+          const font = getComputedStyle(el).font;
+          prepared.set(el, prepare(el.textContent.trim(), font));
+        } catch (_) { /* graceful degradation */ }
+      });
+
+      function relayout() {
+        prepared.forEach((handle, el) => {
+          try {
+            const lineHeight = parseFloat(getComputedStyle(el).lineHeight) || 24;
+            const result = layout(handle, el.clientWidth, lineHeight);
+            if (result && result.height) {
+              el.style.minHeight = result.height + 'px';
+            }
+          } catch (_) { /* graceful degradation */ }
+        });
+      }
+
+      new ResizeObserver(relayout).observe(document.body);
+      relayout();
+    }
+
+    initPretext();
+  </script>
+
+</body>
 </html>
