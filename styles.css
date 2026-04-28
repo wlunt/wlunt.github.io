@@ -149,10 +149,9 @@ p {
 }
 
 .section-sub {
-  font-size: var(--text-lg);
+  font-size: var(--text-base);
   color: var(--slate-500);
   margin-bottom: 3.5rem;
-  max-width: 600px;
 }
 
 /* ============================================================
@@ -822,166 +821,60 @@ p {
 /* ============================================================
    Example Output Section
    ============================================================ */
-.example-section {
+.showcase-section {
   padding: var(--spacing-section) 0;
   background: var(--teal-50);
   border-top: 1px solid var(--teal-100);
   border-bottom: 1px solid var(--teal-100);
-}
-
-.example-inner {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-  max-width: 680px;
-  margin: 0 auto;
-}
-
-.post-card {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
   overflow: hidden;
-  box-shadow: var(--shadow-md);
 }
 
-.post-card-header {
-  background: linear-gradient(135deg, var(--teal-900) 0%, var(--teal-700) 100%);
-  padding: 1.125rem 1.5rem;
-  display: flex;
-  align-items: center;
-  gap: 0.875rem;
-}
-
-.post-card-avatar {
-  width: 40px;
-  height: 40px;
-  background: rgba(255,255,255,0.2);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-weight: 700;
-  font-size: var(--text-sm);
-  flex-shrink: 0;
-}
-
-.post-card-meta {
-  flex: 1;
-}
-
-.post-card-name {
-  font-size: var(--text-sm);
-  font-weight: 600;
-  color: white;
-}
-
-.post-card-handle {
-  font-size: var(--text-xs);
-  color: rgba(255,255,255,0.6);
-}
-
-.post-card-platforms {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.platform-badge {
-  background: rgba(255,255,255,0.15);
-  color: rgba(255,255,255,0.8);
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-}
-
-.post-card-body {
-  padding: 1.75rem 1.5rem;
-  border-bottom: 1px solid var(--slate-100);
-}
-
-.post-text {
-  font-size: var(--text-base);
-  color: var(--slate-700);
-  line-height: 1.75;
-  margin-bottom: 1rem;
-}
-
-.post-caption {
-  font-size: var(--text-sm);
-  color: var(--slate-400);
-  font-style: italic;
-  margin-bottom: 1rem;
-}
-
-.post-hashtags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.hashtag {
-  color: var(--teal-700);
-  font-size: var(--text-sm);
-  font-weight: 500;
-}
-
-.post-card-footer {
-  padding: 1rem 1.5rem;
-  background: var(--slate-50);
-  display: flex;
-  align-items: center;
-  gap: 0.625rem;
-}
-
-.post-card-label {
-  font-size: var(--text-xs);
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--slate-400);
-}
-
-.post-status {
-  font-size: var(--text-xs);
-  font-weight: 600;
-  background: var(--teal-50);
-  color: var(--teal-700);
-  border: 1px solid var(--teal-100);
-  border-radius: 99px;
-  padding: 0.2rem 0.75rem;
-  margin-left: auto;
-}
-
-.example-labels {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-}
-
-.example-label-card {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: 1.25rem;
+.showcase-header {
   text-align: center;
+  margin-bottom: 3rem;
 }
 
-.example-label-card .label-title {
-  font-size: var(--text-xs);
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--slate-400);
-  margin-bottom: 0.375rem;
+.showcase-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
 }
 
-.example-label-card .label-value {
-  font-size: var(--text-sm);
-  color: var(--slate-700);
-  font-weight: 500;
+.showcase-track {
+  display: flex;
+  gap: 1.25rem;
+  width: max-content;
+  will-change: transform;
+}
+
+.showcase-track--fwd {
+  animation: marquee-fwd 40s linear infinite;
+}
+
+.showcase-track--rev {
+  animation: marquee-rev 40s linear infinite;
+  animation-delay: -5s;
+}
+
+@keyframes marquee-fwd {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes marquee-rev {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+
+.showcase-img {
+  width: 320px;
+  height: 220px;
+  border-radius: var(--radius-md);
+  object-fit: cover;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-md);
+  flex-shrink: 0;
+  display: block;
 }
 
 /* ============================================================
@@ -1168,10 +1061,6 @@ p {
 
   .safety-grid {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .example-labels {
-    grid-template-columns: 1fr;
   }
 
   .footer-inner {
