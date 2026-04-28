@@ -869,12 +869,12 @@ p {
 }
 
 .showcase-track--fwd {
-  animation: marquee-fwd 40s linear infinite;
+  animation: marquee-fwd 60s linear infinite;
 }
 
 .showcase-track--rev {
-  animation: marquee-rev 40s linear infinite;
-  animation-delay: -5s;
+  animation: marquee-rev 60s linear infinite;
+  animation-delay: -8s;
 }
 
 @keyframes marquee-fwd {
@@ -888,10 +888,11 @@ p {
 }
 
 .showcase-img {
-  width: 320px;
-  height: 220px;
+  width: 260px;
+  height: 340px;
   border-radius: var(--radius-md);
   object-fit: cover;
+  object-position: top center;
   border: 1px solid var(--border);
   box-shadow: var(--shadow-md);
   flex-shrink: 0;
