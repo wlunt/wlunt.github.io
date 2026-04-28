@@ -519,14 +519,14 @@ p {
   gap: 0.5rem;
 }
 
-.workflow-note::before {
+/* workflow-note::before {
   content: '';
   display: inline-block;
   width: 8px;
   height: 8px;
   background: var(--teal-500);
   border-radius: 50%;
-}
+} */
 
 /* ============================================================
    Steps Shared Styles
