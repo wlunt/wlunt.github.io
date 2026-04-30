@@ -710,7 +710,7 @@ p {
 }
 
 .steps-grid--horizontal .step-card {
-  width: 400px;
+  width: 500px;
   flex-shrink: 0;
 }
 
